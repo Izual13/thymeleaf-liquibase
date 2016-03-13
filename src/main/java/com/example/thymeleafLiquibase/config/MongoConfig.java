@@ -48,7 +48,7 @@ class MongoConfig extends AbstractMongoConfiguration {
     @Override
     @Bean
     public Mongo mongo() throws Exception {
-//        MongoClientURI uri = new MongoClientURI("mongodb://" + mongoUsername + ":" + mongoPassword + "@ds033740.mongolab.com:33740/puzzles");
+//        MongoClientURI uri = new MongoClientURI("mongodb://" + mongoUsername + ":" + mongoPassword + "@test:123/test");
 //        MongoClient client = new MongoClient(uri);
         MongoClient client = new MongoClient();
         return client;
